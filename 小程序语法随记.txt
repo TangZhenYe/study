@@ -1,0 +1,37 @@
+
+不是底部的            url 能传参数
+wx.navigateTo({url: ''+ '?a=a&b=b'})
+
+
+
+bottom             url 不能传参数
+wx.switchTab({url: ''})
+
+
+
+
+wx.navigateBack(OBJECT)
+返回上一页
+
+
+
+catchtap=functionname  函数名后不可加括号
+
+import 导入js 只能相对路径导入 
+
+aspectFill
+
+aspectFit
+
+
+使用 wx:for-item 可以指定数组当前元素的变量名，
+
+使用 wx:for-index 可以指定数组当前下标的变量名：
+
+
+box-sizing: border-box | content-box
+border-box: border padding 算在盒子的宽度高度里面
+content-box: border padding 不算在盒子的宽度高度里面
+
+其实就是border-box 表示这个盒子是带有border的
+content-box 表示盒子仅仅是内容不包括padding和border

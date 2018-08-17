@@ -1,0 +1,19 @@
+git clone http://github.com/tangzhenye/项目名称
+
+
+先到 项目名称下面
+
+
+初始化git
+git init
+
+对本地对应项目下面的所有文件进行添加
+git add .
+
+添加提交信息
+git commit -m '提交信息'
+
+更新所有文件
+git push
+
+

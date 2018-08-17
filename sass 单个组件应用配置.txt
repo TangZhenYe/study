@@ -1,0 +1,26 @@
+安装 node-sass sass-loader
+npm install --save-dev node-sass
+npm install --save-dev sass-loader
+
+
+配置 webpack.base.conf.js
+{
+  test: /\.sass$/,
+  loaders: ['style', 'css', 'sass']
+}
+
+
+配置 webpack.base.conf.js
+这里不能写成scss
+
+
+单组件 引入 lang="scss"
+
+注意是引入 scss
+
+
+全局引入只需要在main里面
+import './global.scss'
+
+
+不能引入 './global.sass' sass 文件
