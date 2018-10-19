@@ -10,6 +10,26 @@ arr.forEach(function (element, index, array) es5
 
 
 
+ES6 的 Template Strings 模版字符串
+
+const name = '小缘'
+const age = 14
+console.info(`大家好，我叫${name}，今年${age}岁了`)
+// 等价于
+console.info('大家好，我叫' + name + '，今年' + age + '岁了')
+
+// 最大的优势是支持换行字符串
+const url = '//baidu.com'
+const text = '百度一下，你就知道'
+const html = `
+  <div class="container">
+    <a href="${url}">${text}</a>
+  </div>
+`
+console.log(html)
+console.log(typeof html)
+
+
 
 ...rest 表示多余的参数放入rest数组里面
 
